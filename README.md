@@ -5,23 +5,23 @@ is a description for every task:
 
 ## 01
 
-The task itself was to download nearly 7,000 pages from the internet, parce and store them in 
+The task itself was to download nearly 7,000 pages from the internet, parse and store them in 
 tables (aka **web-scraping**). Then we needed to visualize some interesting patterns in the data
 using **Python** and its `numpy`, `pandas`, `matplotlib`, `seaborn` and other libraries.
 
 Here is a directory structure:
 
-* `homework_01_B201.ipynb` is a **Jupyter** notebook with the task text in Czech and my cdompplete
+* `homework_01_B201.ipynb` is a **Jupyter** notebook with the task text in Czech and my complete
 solution for it.
-* `raw` directory contains the non-parced web pages in **HTML** that I downloaded from the internet
+* `raw` directory contains the non-parsed web pages in **HTML** that I downloaded from the internet
 using Python `requests` library.
 * `dataset.csv` contains the useful data from the web pages that I extracted using **Python**
 `bs4` library. This dataset is then used to visualize the data in the second part of the task.
 
 ## 02
 
-This task was to use different binary classificators provided by `scikit-learn` library, compare them
-and predict the survival of the Titanic passengers. I used four classificators from `scikit-learn`:
+This task was to use different binary classifiers provided by `scikit-learn` library, compare them
+and predict the survival of the Titanic passengers. I used four classifiers from `scikit-learn`:
 `DecisionTreeClassifier`, `RandomForestClassifier`, `AdaBoostClassifier` and `KNeighborsClassifier`.
 
 The directory structure is here:
