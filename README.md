@@ -35,3 +35,15 @@ and then test them.
 attribute is exactly what we needed to predict.
 * `results.csv` contains the predicted values for *survived* attribute for Titanic passengers
 whose data was stored in `evaluation.csv` file.
+
+## 03
+
+This task was to play with the e-shop customers dataset and `sklearn.cluster.KMeans` algorithm.
+As the task demanded, I trained the models using different versions of the same dataset (scaled,
+modified and scaled modified ones) and compared the results.
+
+The directory structure is quite simple:
+
+* `homework_03_B201.ipynb` is a **Jupyter** notebook with the task and my solution.
+* `esop.csv` is a .csv dataset that we needed to work with. To extract the data about the customers,
+we needed to aggregate the given data by their ID and compute some interesting values.
